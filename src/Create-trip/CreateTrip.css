@@ -1,0 +1,64 @@
+/* CreateTrip.css */
+.create-trip-container {
+  background: #f6f6f6;
+  padding: 60px 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+}
+
+.section-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+input[type="number"] {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 16px;
+}
+
+.budget-option,
+.people-option {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.budget-option:hover,
+.people-option:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.selected {
+  border-color: #5ca9fb;
+  background: #e7f2fe;
+}
+
+.generate-button {
+  margin-top: 40px;
+  background: linear-gradient(to right, #5ca9fb, #6372ff);
+  color: white;
+  padding: 14px 32px;
+  border-radius: 25px;
+  font-weight: 600;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.generate-button:hover {
+  background: #6372ff;
+}

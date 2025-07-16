@@ -1,0 +1,72 @@
+/* Hero.css - imported in Hero.jsx */
+
+.intro {
+  display: table;
+  width: 100%;
+  padding: 0;
+  background: url('../img/intro-bg.jpg') center center no-repeat;
+  background-color: #e5e5e5;
+  background-size: cover;
+}
+
+.intro .overlay {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: table;
+  position: relative;
+}
+
+.intro .intro-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 350px;
+  padding-bottom: 200px;
+}
+
+.intro h1 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 82px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.intro h1 span {
+  font-weight: 800;
+  color: #5ca9fb;
+}
+
+.intro p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+/* Button style */
+.btn-custom {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #274046;
+  background: #274046;
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  border: 0;
+  text-decoration: none;
+}
+
+.btn-custom:hover {
+  color: #fff;
+  background: #E6DADA;
+}

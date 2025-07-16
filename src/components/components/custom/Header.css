@@ -1,0 +1,99 @@
+/* Header - Adapted from #menu.navbar-default */
+
+.app-header {
+  background-color: #ffffff;
+  padding: 15px 32px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.username {
+  font-weight: 500;
+  color: #333;
+}
+
+
+/* Brand / Logo */
+.app-header .navbar-brand {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Navigation Links */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav li a {
+  position: relative;
+  color: #555;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 8px 0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav li a::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(to right, #E6DADA 0%, #274046 100%);
+  transition: width 0.2s;
+}
+
+.navbar-nav li a:hover::after {
+  width: 100%;
+}
+
+.navbar-nav li a:hover {
+  color: #111;
+}
+
+/* Active link styling (optional JS logic to apply .active) */
+.navbar-nav li a.active::after {
+  width: 100%;
+}
+
+/* Sign In Button */
+.signin-button {
+  background: transparent;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 20px;
+  transition: all 0.3s ease;
+}
+
+.signin-button:hover {
+  background: #f3f3f3;
+  color: #000;
+}

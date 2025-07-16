@@ -1,0 +1,53 @@
+.signin-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.signin-form h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.signin-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.signin-form button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.google-button {
+  background: white;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+}
+
+.google-button .icon {
+  margin-right: 8px;
+}
+
+.divider {
+  text-align: center;
+  margin: 1rem 0;
+  color: #888;
+}
